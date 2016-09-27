@@ -1,0 +1,38 @@
+@import "./_variables.scss";
+
+// GENERAL
+
+h1 {
+  color: #858FBE;
+  font-family: $h1Font;
+  font-size: 3em;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+h2, h3 {
+  color: #394683;
+  font-family: $h2Font;
+  font-size: 2em;
+  font-weight: lighter;
+  margin: -10px 0 0 0 ;
+}
+
+body {
+  border-top: 5px solid #2E6678;
+  color: #334455;
+  margin: 0;
+  font-family: $textFont;
+}
+
+a {
+  color: #073949;
+  &:visited {
+    color: #073949;
+  }
+  &:active {
+    color: #334455
+  }
+}
+
+

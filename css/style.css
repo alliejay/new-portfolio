@@ -1,0 +1,28 @@
+h1 {
+  color: #858FBE;
+  font-family: "Halant", serif;
+  font-size: 3em;
+  font-weight: 400;
+  margin: 5px 0; }
+
+h2, h3 {
+  color: #394683;
+  font-family: "Playfair Display SC", serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin: -10px 0 0 0; }
+
+body {
+  border-top: 5px solid #2E6678;
+  color: #334455;
+  margin: 0;
+  font-family: "Lato", sans-serif; }
+
+a {
+  color: #073949; }
+  a:visited {
+    color: #073949; }
+  a:active {
+    color: #334455; }
+
+/*# sourceMappingURL=style.css.map */
