@@ -11,9 +11,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
+// In memory web API
+var angular2_in_memory_web_api_1 = require('angular2-in-memory-web-api');
+var in_memory_data_service_1 = require('./in-memory-data-service');
 var app_component_1 = require('./app.component');
 var about_component_1 = require('./about/about.component');
 var resume_component_1 = require('./resume/resume.component');
+var portfolio_service_1 = require('./portfolio/portfolio.service');
 var app_routes_1 = require('./app.routes');
 var AppModule = (function () {
     function AppModule() {
@@ -23,12 +27,16 @@ var AppModule = (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 http_1.HttpModule,
+                angular2_in_memory_web_api_1.InMemoryWebApiModule.forRoot(in_memory_data_service_1.InMemoryDataService),
                 app_routes_1.routing
             ],
             declarations: [
                 app_component_1.AppComponent,
                 about_component_1.AboutComponent,
                 resume_component_1.ResumeComponent
+            ],
+            providers: [
+                portfolio_service_1.PortfolioService
             ],
             bootstrap: [
                 app_component_1.AppComponent
