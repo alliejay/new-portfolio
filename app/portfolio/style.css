@@ -1,3 +1,11 @@
-
+.item-card {
+  float: left;
+  opacity: .75;
+  transition: all 1s ease-in-out;
+  width: 30%; }
+  .item-card:nth-child(3) {
+    clear: right; }
+  .item-card:hover {
+    opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+.item-card {
+  float: left;
+  opacity: .75;
+  transition: all 1s ease-in-out;
+  width: 30%;
+  &:nth-child(3) {
+    clear: right;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
