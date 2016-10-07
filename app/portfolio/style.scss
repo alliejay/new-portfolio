@@ -1,12 +1,64 @@
+.portfolio {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.iron-yard {
+  margin: 30px 0 20px 0;
+  width: 90%;
+  img {
+    border: 3px solid black;
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 25px;
+    opacity: .3;
+    width: 6%;
+  }
+  h4 {
+    font-size: 2em;
+    display: inline-block;
+    opacity: .5;
+  }
+  img, h4 {
+    vertical-align: middle;
+  }
+  p {
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    margin-left: 80px;
+  }
+}
+
+.iron-yard:before {
+  content: "";
+  position: absolute;
+  top: 62%;
+  right: 150px;
+  //margin-top: 3px;
+  width: 40%;
+  border-bottom: 4px solid #F4F6F7;
+}
+
 .item-card {
-  float: left;
-  opacity: .75;
-  transition: all 1s ease-in-out;
-  width: 30%;
+  display: inline-block;
   &:nth-child(3) {
     clear: right;
   }
-  &:hover {
-    opacity: 1;
+  margin: 15px;
+  width: 30%;
+  img {
+    opacity: .75;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    &:hover {
+      opacity: 1;
+    }
   }
+}
+
+.title {
+  color: #4E8293;
+  text-align: center;
 }
