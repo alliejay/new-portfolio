@@ -1,6 +1,6 @@
 .portfolio {
   display: block;
-  width: 95%;
+  width: 97%;
   margin: 0 auto; }
 
 .iron-yard {
@@ -14,23 +14,31 @@
     opacity: .3;
     width: 6%; }
   .iron-yard h4 {
-    font-size: 2em;
+    font-size: 1.5em;
     display: inline-block;
     opacity: .5; }
   .iron-yard img, .iron-yard h4 {
     vertical-align: middle; }
   .iron-yard p {
-    font-size: 1.25em;
+    font-size: 1em;
     letter-spacing: 1px;
     line-height: 1.5em;
     margin-left: 80px; }
 
-.iron-yard:before {
+#assignments:before {
   content: "";
   position: absolute;
   top: 62%;
   right: 150px;
   width: 40%;
+  border-bottom: 4px solid #F4F6F7; }
+
+#current:before {
+  content: "";
+  position: absolute;
+  top: 81.5%;
+  right: 150px;
+  width: 46%;
   border-bottom: 4px solid #F4F6F7; }
 
 .item-card {
@@ -40,6 +48,7 @@
   .item-card:nth-child(3) {
     clear: right; }
   .item-card img {
+    border: 1px solid lightgrey;
     opacity: .75;
     transition: all 1s ease-in-out;
     width: 100%; }
