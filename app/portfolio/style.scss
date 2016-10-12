@@ -50,14 +50,16 @@
 }
 
 .item-card {
+  background-color: #A6C0C9;
   display: inline-block;
   &:nth-child(3) {
     clear: right;
   }
   margin: 15px;
+  padding: 5px;
   width: 30%;
   img {
-    border: 1px solid lightgrey;
+    border: 5px solid lightgrey;
     opacity: .75;
     transition: all 1s ease-in-out;
     width: 100%;
@@ -69,5 +71,5 @@
 
 .title {
   color: #4E8293;
-  text-align: center;
+  text-align: left;
 }

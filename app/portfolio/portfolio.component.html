@@ -2,7 +2,7 @@
     <div class="iron-yard" id="current">
         <img src="app/icons/keyboard.svg" alt="keyboard">
         <h4>CURRENT WORK & SIDE PROJECTS</h4>
-        <p>I currently work as a contractor for the Department of Defense, designing and developing new user interfaces for an existing application. Because of the nature of this work, I unfortunately cannot display any examples of it here.</p>
+        <p>Due to the nature of my current work, I unfortunately cannot display any examples of it here. I am also working on a mobile application with my fellow co-workers using Ionic Framework, and I cannot display examples of it here as we are keeping it under wraps until further notice.</p>
     </div>
 
     <div class="iron-yard" id="assignments">
@@ -13,10 +13,10 @@
 
     <div *ngFor="let item of portfolioItems" class="item-card">
         <section class="inner-section">
-            <h4 class="title">{{item.title}}</h4>
             <a href="/">
                 <img src="{{item.mainImg}}" alt="">
             </a>
+            <h4 class="title">{{item.title}}</h4>
         </section>
     </div>
 </div>
