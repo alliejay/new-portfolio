@@ -4,7 +4,15 @@ var about_component_1 = require('./about/about.component');
 var contact_component_1 = require('./contact/contact.component');
 var portfolio_component_1 = require('./portfolio/portfolio.component');
 var resume_component_1 = require('./resume/resume.component');
+var intro_component_1 = require('./intro/intro.component');
 var appRoutes = [
+    {
+        path: '',
+        component: intro_component_1.IntroComponent,
+        data: {
+            title: 'Allie Arsenault | Web Development & Design'
+        }
+    },
     { path: 'about',
         component: about_component_1.AboutComponent,
         data: {

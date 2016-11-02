@@ -1,0 +1,73 @@
+.contact {
+  width: 80%;
+  margin: 2.5% auto;
+  line-height: 1.65em;
+  transition: all 1s ease-in-out;
+}
+
+.big-col-2 {
+  width: 45%;
+  display: inline-block;
+}
+
+.contactAside {
+  width: 35%;
+  display: inline-block;
+  float: right;
+}
+
+.big-col-2, .contactAside {
+  vertical-align: bottom;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 15% 0 0 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+// PHONE
+.contact-info li.phone a {
+  background-image: url('../icons/old-phone.svg');
+  opacity: .75;
+}
+
+// EMAIL
+.contact-info li.mail a {
+  background-image: url('../icons/mail.svg');
+  opacity: .75;
+}
+
+// GITHUB
+.contact-info li.github a {
+  background-image: url('../icons/github.svg');
+  opacity: .75;
+}
+
+// TWITTER
+.contact-info li.twitter a {
+  background-image: url('../icons/twitter.svg');
+  opacity: .75;
+}
+
+// LINKED IN
+.contact-info li.linkedIn a {
+  background-image: url('../icons/linkedin.svg');
+  opacity: .75;
+}
+
+// INSTAGRAM
+.contact-info li.insta a {
+  background-image: url('../icons/instagram.svg');
+  opacity: .75;
+}

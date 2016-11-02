@@ -16,7 +16,10 @@ var angular2_in_memory_web_api_1 = require('angular2-in-memory-web-api');
 var in_memory_data_service_1 = require('./in-memory-data-service');
 var app_component_1 = require('./app.component');
 var about_component_1 = require('./about/about.component');
+var contact_component_1 = require('./contact/contact.component');
 var resume_component_1 = require('./resume/resume.component');
+var portfolio_component_1 = require('./portfolio/portfolio.component');
+var intro_component_1 = require('./intro/intro.component');
 var portfolio_service_1 = require('./portfolio/portfolio.service');
 var app_routes_1 = require('./app.routes');
 var AppModule = (function () {
@@ -33,7 +36,10 @@ var AppModule = (function () {
             declarations: [
                 app_component_1.AppComponent,
                 about_component_1.AboutComponent,
-                resume_component_1.ResumeComponent
+                contact_component_1.ContactComponent,
+                resume_component_1.ResumeComponent,
+                portfolio_component_1.PortfolioComponent,
+                intro_component_1.IntroComponent
             ],
             providers: [
                 portfolio_service_1.PortfolioService

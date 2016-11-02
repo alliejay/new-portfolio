@@ -8,7 +8,10 @@ import { InMemoryDataService } from './in-memory-data-service';
 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 import { ResumeComponent } from './resume/resume.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { IntroComponent } from './intro/intro.component';
 
 import { PortfolioService } from './portfolio/portfolio.service';
 
@@ -24,7 +27,10 @@ import { routing } from './app.routes';
     declarations: [
         AppComponent,
         AboutComponent,
-        ResumeComponent
+        ContactComponent,
+        ResumeComponent,
+        PortfolioComponent,
+        IntroComponent
     ],
     providers: [
         PortfolioService

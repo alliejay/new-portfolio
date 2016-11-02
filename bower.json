@@ -1,0 +1,21 @@
+{
+  "name": "angular2-quickstart",
+  "description": "",
+  "main": "",
+  "license": "ISC",
+  "homepage": "https://github.com/alliejay/new-portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Morphext": "^2.4.4",
+    "animate.css": "^3.5.2"
+  },
+  "resolutions": {
+    "animate.css": "~3.2.5"
+  }
+}
