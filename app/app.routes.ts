@@ -5,16 +5,16 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './resume/resume.component';
-import { IntroComponent } from './intro/intro.component';
+// import { IntroComponent } from './intro/intro.component';
 
 const appRoutes: Routes = [
-    {
-      path: '',
-        component: IntroComponent,
-        data: {
-          title: 'Allie Arsenault | Web Development & Design'
-        }
-    },
+    // {
+    //   path: '',
+    //     component: IntroComponent,
+    //     data: {
+    //       title: 'Allie Arsenault | Web Development & Design'
+    //     }
+    // },
     { path: 'about',
         component: AboutComponent,
         data: {

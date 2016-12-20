@@ -1,7 +1,7 @@
 @import "../../css/_variables";
 
 .about {
-  //width: 80%;
+  width: 85%;
   // height: 600px;
   margin: 3% auto;
   transition: all 1s ease-in-out;
@@ -17,12 +17,12 @@
     text-align: left;
   }
   h4 {
-    margin: 10px 100px 30px 0px;
+    margin: -50px 150px 50px 0px;
     padding: 0;
     font-size: 1em;
+    font-weight: 400;
     opacity: .5;
     font-family: $textFont;
-    font-weight: normal;
     text-align: right;
   }
   img {
@@ -37,10 +37,16 @@
 
 .sub-content {
   font-family: $textFont;
+  font-size: 1.2em;
+  line-height: 1.75em;
   text-align: left;
   h2 {
     color: #4E8293;
     font-weight: bold;
     opacity: .5;
+  }
+  a {
+    font-weight: bold;
+    color: #4E8293;
   }
 }

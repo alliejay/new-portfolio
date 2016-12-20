@@ -19,7 +19,7 @@ var about_component_1 = require('./about/about.component');
 var contact_component_1 = require('./contact/contact.component');
 var resume_component_1 = require('./resume/resume.component');
 var portfolio_component_1 = require('./portfolio/portfolio.component');
-var intro_component_1 = require('./intro/intro.component');
+// import { IntroComponent } from './intro/intro.component';
 var portfolio_service_1 = require('./portfolio/portfolio.service');
 var app_routes_1 = require('./app.routes');
 var AppModule = (function () {
@@ -38,8 +38,7 @@ var AppModule = (function () {
                 about_component_1.AboutComponent,
                 contact_component_1.ContactComponent,
                 resume_component_1.ResumeComponent,
-                portfolio_component_1.PortfolioComponent,
-                intro_component_1.IntroComponent
+                portfolio_component_1.PortfolioComponent
             ],
             providers: [
                 portfolio_service_1.PortfolioService
